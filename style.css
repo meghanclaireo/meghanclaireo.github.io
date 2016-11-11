@@ -2276,6 +2276,7 @@ img.aligncenter {
     .rs-icons-list li {
         width: 50%;
     }
+
 }
 
 /**
@@ -3353,6 +3354,10 @@ body {
     text-align: center;
 }
 
+.profile-info-mobile{
+  display:none;
+}
+
 .widget-profile .profile-title {
     color: #3d4451;
     font-size: 30px;
@@ -3367,6 +3372,16 @@ body {
     line-height: 1.1;
     margin-bottom: 0;
 }
+
+@media (max-width: 480px) {
+    .profile-info-mobile{
+      display:block;
+    }
+    .profile-info{
+      display:none;
+    }
+}
+
 
 /* Widget: Popular Posts */
 .widget-popuplar-posts li,
