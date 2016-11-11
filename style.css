@@ -1877,12 +1877,13 @@ img.aligncenter {
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: center;
+    text-align: right;
 }
 
 .social li {
     display: inline-block;
     margin: 5px 15px;
+    text-align: center;
 }
 
 .social li a {
