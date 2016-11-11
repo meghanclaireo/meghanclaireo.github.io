@@ -3356,6 +3356,7 @@ body {
 
 .profile-info-mobile{
   display:none;
+  margin-bottom:15px;
 }
 
 .widget-profile .profile-title {
