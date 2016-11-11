@@ -3379,7 +3379,7 @@ body {
       margin-bottom:20px;
     }
     .profile-preword{
-      margin-bottom:10px;
+      margin-bottom:10px !important;
     }
     .profile-info{
       display:none;
