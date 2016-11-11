@@ -3356,7 +3356,6 @@ body {
 
 .profile-info-mobile{
   display:none;
-  margin-bottom:15px;
 }
 
 .widget-profile .profile-title {
@@ -3377,6 +3376,10 @@ body {
 @media (max-width: 480px) {
     .profile-info-mobile{
       display:block;
+      margin-bottom:20px;
+    }
+    .profile-preword{
+      margin-bottom:10px;
     }
     .profile-info{
       display:none;
@@ -3539,7 +3542,7 @@ body {
 
 .section-about .profile-title {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.4;
     font-weight: 700;
     margin-bottom: 5px;
 }
