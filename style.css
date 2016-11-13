@@ -3718,7 +3718,8 @@ body {
 }
 
 .progress-bar .bar-value {
-    font-size: 16px;
+    font-size: 10px;
+    color:#878787;
     position: absolute;
     right: 0;
     top: 0;
