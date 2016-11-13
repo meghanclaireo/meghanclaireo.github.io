@@ -3695,7 +3695,11 @@ body {
     }
 
     .section-about .profile-title {
-        font-size: 28px;
+        font-size: 22px;
+    }
+
+    .section-about .profile-position {
+        font-size: 14px;
     }
 }
 
