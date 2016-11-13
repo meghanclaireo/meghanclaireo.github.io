@@ -2603,7 +2603,7 @@ body {
 
 .nav-wrap .nav {
     float: right;
-    margin-right: 30px;
+    /*margin-right: 30px;*/
     display: block;
 }
 
@@ -2895,7 +2895,8 @@ body {
  * 9.4 - Header With BgImage
  */
 .header-has-img .header {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    min-height: none;
 }
 
 .header-has-img .head-bg {
